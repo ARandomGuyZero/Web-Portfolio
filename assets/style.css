@@ -28,18 +28,6 @@ body {
   color: var(--accent);
 }
 
-.avatar {
-  width: 140px;
-  height: 140px;
-  border-radius: 1.2rem;
-  background: linear-gradient(135deg, var(--accent), var(--accent-2));
-  display: grid;
-  place-items: center;
-  font-size: 3rem;
-  font-weight: 700;
-  color: #0b0b0f;
-}
-
 .skill-pill {
   background: linear-gradient(135deg, #1f1f2e, #14141c);
   border-radius: 999px;
