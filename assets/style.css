@@ -1,0 +1,64 @@
+:root {
+  --bg: #0b0b0f;
+  --panel: #14141c;
+  --panel-soft: #1b1b26;
+  --text: #e6e6eb;
+  --muted: #a1a1b3;
+  --accent: #a78bfa;
+  --accent-2: #22c55e;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: radial-gradient(circle at top, #151522, var(--bg));
+  color: var(--text);
+}
+
+.panel {
+  background: var(--panel);
+  border-radius: 1.2rem;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
+}
+
+.panel-soft {
+  background: var(--panel-soft);
+}
+
+.accent {
+  color: var(--accent);
+}
+
+.avatar {
+  width: 140px;
+  height: 140px;
+  border-radius: 1.2rem;
+  background: linear-gradient(135deg, var(--accent), var(--accent-2));
+  display: grid;
+  place-items: center;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #0b0b0f;
+}
+
+.skill-pill {
+  background: linear-gradient(135deg, #1f1f2e, #14141c);
+  border-radius: 999px;
+  padding: 0.5rem 1rem;
+  font-size: 0.85rem;
+}
+
+.edu-card {
+  background: linear-gradient(135deg, #1f1f2e, #14141c);
+  border-radius: 0.9rem;
+  padding: 1.1rem;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.04);
+}
+
+.carousel-item > div {
+  padding-right: 0.5rem;
+}
+
+footer {
+  color: var(--muted);
+  font-size: 0.8rem;
+}
